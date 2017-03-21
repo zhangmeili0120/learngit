@@ -29,4 +29,11 @@ git is free software distributed under the GPL..
 6.撤销修改
 	1）git checkout -- readme.txt//丢弃工作区的修改
 	2) git reset HEAD readme.txt//丢弃暂存区的修改（unstage),重新放回工作区，然后git checkout -- readme.txt丢弃工作区的修改
+7.删除文件
+	rm test.txt 删除test.txt文件
+	1）确定删除
+	git rm test.txt
+	git commit -m "remove test.txt"
+	2)删错了，因为版本库还有，可以一键还原
+	git checkout --test.txt
 	
