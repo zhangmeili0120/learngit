@@ -1,5 +1,3 @@
-git is a distributed version controll software.
-git is free software distributed under the GPL..
 1.git安装
 2.git创建版本库
 	git bash here打开命令窗口进行操作。
@@ -38,7 +36,7 @@ git is free software distributed under the GPL..
 	git checkout --test.txt
 	
 ****************************************************
-map(),set()是es6中的数据模型。
+
 *****************************************************
 一，远程仓库的使用
 1.注册github账号，要使用自己可以用的，能收到邮件验证的邮箱。
